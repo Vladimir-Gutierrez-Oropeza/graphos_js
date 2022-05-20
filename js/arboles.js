@@ -86,7 +86,7 @@ function verificarLetras(texto){
 var tree;
 
 function setup() {
-  createCanvas(1500, 600);
+  createCanvas(1300, 1000);
   tree = new Tree();
 // background(0);
 }
@@ -94,7 +94,7 @@ function Node(val, x, y) {
   this.value = val;
   this.left = null;
   this.right = null;
-  this.distance = 5;
+  this.distance = 2.5;
   this.x = x;
   this.y = y;
 }
@@ -106,11 +106,11 @@ Node.prototype.visit = function(parent)
     this.left.visit(this);
   }
   console.log(this.value);
-  stroke("#113c75");
+  stroke("white");
   line(parent.x, parent.y, this.x, this.y);
   stroke(255);
-  fill("#113c75");
-  ellipse(this.x, this.y, 24, 24);
+  fill("black");
+  ellipse(this.x, this.y, 30, 30);
   noStroke();
   fill(255);
   textAlign(CENTER);
@@ -173,7 +173,7 @@ Tree.prototype.addValue = function(val)
   {
     this.root = n;
     this.root.x = width / 2;
-    this.root.y = 16;
+    this.root.y = 12;
   } 
   else 
   {
