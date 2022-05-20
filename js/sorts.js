@@ -97,9 +97,10 @@ function bubble(){
     console.log(opc);
     var ms=Math.floor(Math.random() * (1000 - 400)) + 400;
     var s=Math.floor(Math.random() * (3 - 1)) + 1;
-    var txtx="Tiempo de Ejecucion: 00:00:00:"+ms;
+    var txtx="00:00:00:"+ms;
     Swal.fire({
-      icon: 'info',
+      title: 'Ejecucion de algormitmo',
+      icon: '',
       text: txtx,
     });
   }else{
@@ -154,9 +155,10 @@ function insertion(){
     console.log(opc);
     var ms=Math.floor(Math.random() * (1000 - 500)) + 500;
     var s=Math.floor(Math.random() * (0 - 0)) + 0;
-    var txtx="Tiempo de Ejecucion: 00:00:00:"+ms;
+    var txtx="00:00:00:"+ms;
     Swal.fire({
-      icon: 'info',
+      title: 'Ejecucion de algormitmo',
+      icon: '',
       text: txtx,
     });
   }else{
@@ -216,9 +218,10 @@ function selection(){
     console.log(opc);
     var ms=Math.floor(Math.random() * (400 - 10)) + 10;
     var s=Math.floor(Math.random() * (2 - 0)) + 0;
-    var txtx="Tiempo de Ejecucion: 00:00:00:"+ms;
+    var txtx="00:00:00:"+ms;
     Swal.fire({
-      icon: 'info',
+      title: 'Ejecucion de algormitmo',
+      icon: '',
       text: txtx,
     });
   }else{
@@ -254,9 +257,10 @@ function quickSort(){
     document.getElementById("salida").innerHTML = texto;
     console.log(opc);
     var ms=Math.floor(Math.random() * (300 - 0)) + 0;
-    var txtx="Tiempo de Ejecucion: 00:00:00:"+ms;
+    var txtx="00:00:00:"+ms;
     Swal.fire({
-      icon: 'info',
+      title: 'Ejecucion de algormitmo',
+      icon: '',
       text: txtx,
     });
   }else{
@@ -363,9 +367,10 @@ function mergeSort(){
     document.getElementById("salida").innerHTML = texto;
     console.log(opc);
     var ms=Math.floor(Math.random() * (100 - 0)) + 0;
-    var txtx="Tiempo de Ejecucion: 00:00:00:"+ms;
+    var txtx="00:00:00:"+ms;
     Swal.fire({
-      icon: 'info',
+      title: 'Ejecucion de algormitmo',
+      icon: '',
       text: txtx,
     });
   }else{
